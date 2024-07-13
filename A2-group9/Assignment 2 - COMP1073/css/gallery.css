@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+figure {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+li {
+    margin: 10px;
+}
+
+.thumbnail {
+    cursor: pointer;
+    filter: grayscale(100%);
+    transition: filter 0.3s;
+}
+
+.thumbnail.active {
+    filter: grayscale(0%);
+}
+
+figcaption {
+    font-size: 1.2em;
+    margin-top: 10px;
+    color: #666;
+}
